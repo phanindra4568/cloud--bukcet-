@@ -1,0 +1,86 @@
+1. Create a free AWS account
+
+Go to the Amazon Web Services (AWS) website and sign up if you don’t already have an account. 
+Amazon Web Services, Inc.
++1
+
+Once signed in, open the AWS Management Console.
+
+Ensure you have access to the S3 service.
+
+2. Open S3 service
+
+In the console search bar, type “S3” and select the S3 service. 
+Amazon Web Services, Inc.
++1
+
+Ensure you’re in the region you want (you can pick e.g., us‐east‑1 or your preferred region). 
+AWS Documentation
+
+3. Create a bucket
+
+Click “Create bucket” in the S3 console. 
+AWS Documentation
++1
+
+Enter a bucket name — it must be globally unique across all AWS S3 buckets. 
+AWS Documentation
++1
+
+Choose your Region (e.g., us‑east‑1).
+
+Leave other settings as the defaults (you don’t need to change permissions or advanced config for this simple task). 
+Amazon Web Services, Inc.
++1
+
+Click “Create bucket”. Your bucket is now ready. 
+AWS Documentation
++1
+
+4. Upload a sample file
+
+In your bucket list, click the name of the bucket you just created to go into it. 
+AWS Documentation
+
+Click “Upload”. 
+AWS Documentation
++1
+
+Select “Add files” (or drag & drop) to choose a file from your computer (for example a .txt or image file). 
+AWS Documentation
+
+Leave the default permission and property settings (for this task) unless you want to make the file publicly accessible. 
+Amazon Web Services, Inc.
+
+Click “Upload” (or “Start upload”). Wait until you see that the object is listed in the bucket. 
+AWS Documentation
++1
+
+5. (Optional) Make the file public and test URL
+
+If you want the file to be accessible via a browser link, you’ll need to allow public access (or at least the object should have public read).
+
+After upload, click the uploaded object, and you’ll see the object URL (a web link like https://bucket‑name.s3.region.amazonaws.com/yourfile) — copy that link. 
+Amazon Web Services, Inc.
++1
+
+Paste the URL into a browser to ensure the file loads/open successfully. This verifies accessibility.
+
+6. Capture a screenshot (for your deliverable)
+
+While you’re viewing your bucket and seeing the uploaded file listed, take a screenshot of that screen (showing bucket name + file).
+
+Make sure the screenshot clearly shows the bucket list with the file name and possibly the object URL or status.
+
+Save the screenshot for submission.
+
+7. Summary / Outcome
+
+You have created a bucket (container) in AWS S3.
+
+You have uploaded a file (object) into that bucket.
+
+You optionally made the file publicly accessible and tested its URL in a browser.
+
+You now understand the fundamentals of “object storage” (bucket = storage container, objects = files inside it) in a cloud context. 
+Amazo
